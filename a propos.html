@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== META TAGS SEO ===== -->
+    <title>À Propos - SantéNaturelle.fr | Notre Histoire, Notre Mission, Notre Engagement</title>
+    <meta name="description" content="Découvrez l'histoire de SantéNaturelle.fr, notre mission pour votre bien-être naturel, notre équipe d'experts et nos engagements qualité. Votre santé est notre priorité.">
+    <meta name="keywords" content="à propos, notre histoire, notre mission, engagement qualité, produits naturels, équipe experts, santé naturelle, bien-être, contact">
+    <meta name="author" content="SantéNaturelle.fr">
+    <meta name="copyright" content="SantéNaturelle.fr">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="-yrfHZ-nFXESaqDikjL_GDKoFmotD6NG17VR87ojqSc" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="À Propos - SantéNaturelle.fr">
+    <meta property="og:description" content="Notre histoire, notre mission et notre engagement pour votre santé naturelle">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://santenaturelle.github.io/a-propos.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://santenaturelle.github.io/a-propos.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "À Propos - SantéNaturelle.fr",
+      "description": "Page À Propos de SantéNaturelle.fr",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SantéNaturelle.fr",
+        "url": "https://santenaturelle.github.io"
+      }
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVE96XF2CJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MVE96XF2CJ');
+    </script>
+    
+    <style>
+        /* ===== VARIABLES GLOBALES ===== */
+        :root {
+            --primary-color: #2E7D32;
+            --secondary-color: #1565C0;
+            --accent-color: #FF6F00;
+            --bg-color: #f0f8f0;
+            --bg-light: #e8f5e8;
+            --bg-card: #ffffff;
+            --dark-color: #1a472a;
+            --text-color: #2e593c;
+            --border-color: #c8e6c9;
+            
+            --border-radius: 12px;
+            --box-shadow: 0 4px 12px rgba(46, 125, 50, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3rem);
+            color: var(--primary-color);
+        }
+        
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.2rem);
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 2rem;
+        }
+        
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+        }
+        
+        /* ===== CONTAINER ===== */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* ===== HEADER ===== */
+        header {
+            background-color: var(--bg-card);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            height: 70px;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: clamp(1.4rem, 3vw, 1.8rem);
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .logo-icon {
+            width: 42px;
+            height: 42px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        
+        nav a {
+            font-weight: 500;
+            color: var(--dark-color);
+            text-decoration: none;
+            padding: 5px 0;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        nav a:hover {
+            color: var(--primary-color);
+        }
+        
+        nav a.active {
+            color: var(--primary-color);
+        }
+        
+        nav a.active:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--dark-color);
+        }
+        
+        /* ===== HERO ABOUT ===== */
+        .hero-about {
+            background: linear-gradient(135deg, rgba(46, 125, 50, 0.9), rgba(21, 101, 192, 0.8)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1f');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero-about h1 {
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        /* ===== CONTENT SECTIONS ===== */
+        section {
+            padding: 80px 0;
+        }
+        
+        .story-section, .values-section {
+            background-color: var(--bg-light);
+        }
+        
+        .mission-section {
+            background-color: white;
+        }
+        
+        /* ===== STORY SECTION ===== */
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .story-image img {
+            width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .story-content h2 {
+            margin-bottom: 1.5rem;
+        }
+        
+        /* ===== VALUES SECTION ===== */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .value-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .value-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        /* ===== TEAM SECTION ===== */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .team-member {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+        }
+        
+        .member-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .member-role {
+            color: var(--accent-color);
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        /* ===== CONTACT SECTION ===== */
+        .contact-section {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        
+        .contact-info {
+            background: white;
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .contact-details {
+            margin-top: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--bg-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+        }
+        
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        
+        .cta-section h2 {
+            color: white;
+        }
+        
+        .cta-section h2:after {
+            background-color: white;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            font-weight: 600;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 111, 0, 0.4);
+        }
+        
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-links h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #CCCCCC;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #AAAAAA;
+        }
+        
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 992px) {
+            .story-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+            
+            nav ul.active {
+                display: flex;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-about {
+                padding: 60px 0;
+            }
+            
+            .value-card, .team-member, .contact-info {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">SN</div>
+                <div class="logo-text">Santé<span>Naturelle</span></div>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html" class="active">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html#produits">Nos Produits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-about">
+        <div class="container">
+            <h1>Notre Histoire, Notre Mission</h1>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Découvrez les valeurs qui nous animent et l'équipe qui œuvre chaque jour pour votre bien-être naturel</p>
+        </div>
+    </section>
+
+    <!-- ===== NOTRE HISTOIRE ===== -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56" alt="Équipe SantéNaturelle travaillant ensemble">
+                </div>
+                <div class="story-content">
+                    <h2>Notre Histoire</h2>
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">SantéNaturelle.fr est né d'une conviction profonde : la nature recèle les meilleures solutions pour préserver et améliorer notre santé.</p>
+                    <p style="margin-bottom: 1.5rem;">Fondé en 2018 par une équipe de passionnés de médecine naturelle et de nutrition, notre projet a rapidement évolué pour devenir une référence dans le domaine des produits naturels pour la santé.</p>
+                    <p>Notre parcours a été guidé par des rencontres avec des experts, des naturopathes et des milliers de clients qui nous ont fait confiance. Chaque témoignage, chaque réussite nous motive à continuer notre mission.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NOTRE MISSION ===== -->
+    <section class="mission-section">
+        <div class="container">
+            <h2 style="text-align: center;">Notre Mission</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; font-size: 1.1rem;">Notre mission est triple : éduquer, accompagner et fournir des solutions naturelles de qualité pour votre bien-être.</p>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🌿</div>
+                    <h3>Qualité Naturelle</h3>
+                    <p>Nous sélectionnons rigoureusement des ingrédients 100% naturels, issus de sources durables et certifiées.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h3>Efficacité Scientifique</h3>
+                    <p>Nos formulations sont développées en collaboration avec des experts et validées par des études scientifiques.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Accompagnement Personnalisé</h3>
+                    <p>Nous vous guidons dans votre parcours santé avec des conseils adaptés à vos besoins spécifiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NOS ENGAGEMENTS ===== -->
+    <section class="values-section">
+        <div class="container">
+            <h2 style="text-align: center;">Nos Engagements</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="background: white; padding: 30px; border-radius: var(--border-radius); margin-bottom: 20px;">
+                    <h3>✅ Transparence Totale</h3>
+                    <p>Nous listons tous les ingrédients de nos produits et expliquons clairement leur provenance et leurs bienfaits.</p>
+                </div>
+                
+                <div style="background: white; padding: 30px; border-radius: var(--border-radius); margin-bottom: 20px;">
+                    <h3>✅ Garantie Satisfait ou Remboursé</h3>
+                    <p>Nous croyons tellement en nos produits que nous offrons une garantie satisfait ou remboursé de 90 jours sur tous nos produits.</p>
+                </div>
+                
+                <div style="background: white; padding: 30px; border-radius: var(--border-radius); margin-bottom: 20px;">
+                    <h3>✅ Éthique et Durabilité</h3>
+                    <p>Nos emballages sont recyclables et nous privilégions les fournisseurs engagés dans des pratiques respectueuses de l'environnement.</p>
+                </div>
+                
+                <div style="background: white; padding: 30px; border-radius: var(--border-radius);">
+                    <h3>✅ Expertise Certifiée</h3>
+                    <p>Notre équipe est composée de naturopathes certifiés et de nutritionnistes disponibles pour répondre à vos questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NOTRE ÉQUIPE ===== -->
+    <section class="team-section">
+        <div class="container">
+            <h2 style="text-align: center;">Notre Équipe d'Experts</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">Rencontrez les professionnels passionnés qui composent notre équipe</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">MD</div>
+                    <h3>Dr. Marie Dubois</h3>
+                    <div class="member-role">Naturopathe Diplômée</div>
+                    <p>15 ans d'expérience en médecine naturelle. Spécialiste en phytothérapie et nutrition.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-avatar">PL</div>
+                    <h3>Pierre Lambert</h3>
+                    <div class="member-role">Pharmacien & Formulateur</div>
+                    <p>Expert en formulation de produits naturels. Veille scientifique constante.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-avatar">SC</div>
+                    <h3>Sophie Chen</h3>
+                    <div class="member-role">Nutritionniste</div>
+                    <p>Spécialiste en micronutrition et accompagnement personnalisé.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-avatar">TR</div>
+                    <h3>Thomas Roux</h3>
+                    <div class="member-role">Responsable Qualité</div>
+                    <p>Garant de la qualité et de la traçabilité de tous nos produits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 style="text-align: center;">Contactez-Nous</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Nous Sommes à Votre Écoute</h3>
+                    <p>Que vous ayez des questions sur nos produits, besoin de conseils personnalisés ou simplement envie d'échanger sur la santé naturelle, notre équipe est là pour vous.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>contact@santenaturelle.fr</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Téléphone</strong>
+                                <p>01 23 45 67 89</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <strong>Horaires</strong>
+                                <p>Lundi - Vendredi : 9h - 18h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>15 Rue de la Santé<br>75006 Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Questions Fréquentes</h3>
+                    
+                    <div style="margin-top: 30px;">
+                        <div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+                            <h4>❓ Comment choisir le produit adapté à mes besoins ?</h4>
+                            <p>Notre équipe d'experts peut vous orienter gratuitement vers la solution la plus adaptée à votre situation.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+                            <h4>❓ Quels sont vos délais de livraison ?</h4>
+                            <p>Livraison en 24-48h en France métropolitaine. Livraison offerte dès 49€ d'achat.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <h4>❓ Puis-je annuler ma commande ?</h4>
+                            <p>Oui, vous avez 14 jours pour exercer votre droit de rétractation.</p>
+                        </div>
+                    </div>
+                    
+                    <a href="mailto:contact@santenaturelle.fr" class="btn" style="display: inline-block; margin-top: 20px;">Nous Écrire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à Prendre Votre Santé en Main ?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">Rejoignez les milliers de personnes qui ont déjà transformé leur bien-être avec nos solutions naturelles</p>
+            <a href="index.html#produits" class="btn">Découvrir Nos Produits</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>SantéNaturelle</h3>
+                    <p style="color: #CCCCCC; margin-top: 10px;">Votre partenaire santé naturel depuis 2018.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Liens Utiles</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À Propos</a></li>
+                        <li><a href="index.html#produits">Nos Produits</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Informations</h3>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">CGV</a></li>
+                        <li><a href="#">Livraison & Retours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Rejoignez-Nous</h3>
+                    <ul>
+                        <li><a href="#">📧 Newsletter</a></li>
+                        <li><a href="#">💼 Recrutement</a></li>
+                        <li><a href="#">🤝 Partenariats</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 SantéNaturelle.fr - Tous droits réservés. | Site créé avec passion pour votre bien-être.</p>
+                <p style="margin-top: 10px; font-size: 0.9em;">Les produits présentés sont des compléments alimentaires. Ils ne se substituent pas à une alimentation variée et équilibrée ni à un mode de vie sain.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainMenu = document.getElementById('mainMenu');
+        
+        if (mobileMenuBtn && mainMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mainMenu.classList.toggle('active');
+                mobileMenuBtn.textContent = mainMenu.classList.contains('active') ? '✕' : '☰';
+            });
+        }
+        
+        // Smooth scroll pour les ancres
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if(this.getAttribute('href') === '#') return;
+                
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Fermer le menu mobile si ouvert
+                    if(mainMenu && mainMenu.classList.contains('active')) {
+                        mainMenu.classList.remove('active');
+                        mobileMenuBtn.textContent = '☰';
+                    }
+                }
+            });
+        });
+        
+        // Animation au scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.value-card, .team-member');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.1;
+                
+                if(elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+        
+        // Initialiser les animations
+        document.querySelectorAll('.value-card, .team-member').forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+        animateOnScroll();
+        
+        // Google Analytics Event Tracking
+        function trackGAEvent(category, action, label) {
+            if(typeof gtag !== 'undefined') {
+                gtag('event', action, {
+                    'event_category': category,
+                    'event_label': label
+                });
+            }
+        }
+        
+        // Track page view
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page À Propos chargée');
+            trackGAEvent('page_view', 'a_propos_page', window.location.pathname);
+        });
+    </script>
+</body>
+</html>
